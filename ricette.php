@@ -21,7 +21,7 @@
                 while($row = mysqli_fetch_assoc($result)){
                     echo "<tr>";
                     echo "<td>" . $row['recipe_name'] . "</td>";
-                    echo "<td><img src='".$row['photo']."'></td>";
+                    echo "<td><img src='data:image/jpeg;base64,".base64_encode($row['photo'])."' width='150' height='150'></td>";
                     echo "<td>" . $row['ingredients'] . "</td>";
                     echo "<td>" . $row['method'] . "</td>";
                     echo "<td>";
@@ -33,3 +33,4 @@
         </table>
     </body>
 </html>
+

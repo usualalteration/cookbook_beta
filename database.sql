@@ -4,10 +4,10 @@ USE cookbook;
 
 CREATE TABLE recipes(
     id int PRIMARY KEY NOT NULL auto_increment,
-    recipe_name varchar(25),
-    photo varchar(255),
-    ingredients text,
-    method text
+    recipe_name varchar(25) NOT NULL,
+    photo longblob NOT NULL,
+    ingredients text NOT NULL,
+    method text NOT NULL
 );
 
 

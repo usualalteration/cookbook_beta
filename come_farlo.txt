@@ -1,0 +1,41 @@
+Creare un database MySQL con una tabella "recipes"
+che ha i seguenti campi:
+
+id (int, auto increment)
+title (varchar)
+description (text)
+ingredients (text)
+instructions (text)
+photo (varchar)
+
+Creare un form HTML per l'aggiunta di una nuova
+ricetta con i seguenti campi:
+
+title (input text)
+description (textarea)
+ingredients (textarea)
+instructions (textarea)
+photo (input file)
+
+Creare una pagina PHP che riceve i dati dal form
+e li inserisce nella tabella "recipes", salvando la foto
+in una cartella sul server e il percorso della foto nel campo
+"photo" della tabella.
+
+Creare una pagina PHP che visualizza tutte le ricette nella
+tabella "recipes" con una tabella HTML, mostrando anche la foto.
+
+Aggiungere un pulsante di modifica sulla pagina di visualizzazione
+delle ricette che porta ad un form HTML precompilato con i dati
+della ricetta selezionata, permettendo all'utente di modificare
+i campi e la foto.
+
+Creare una pagina PHP che riceve i dati dal form di modifica
+e aggiorna i campi della ricetta selezionata nella tabella
+"recipes", salvando la nuova foto nella cartella sul server
+e aggiornando il percorso della foto nella tabella.
+
+Aggiungere un pulsante di cancellazione sulla pagina di
+visualizzazione delle ricette che permette all'utente di
+cancellare una ricetta dalla tabella "recipes", eliminando
+anche la foto dalla cartella sul server.
