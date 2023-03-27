@@ -4,13 +4,11 @@
     </head>
     <body>
         <form action="inserisci_ricetta.php" method="post" enctype="multipart/form-data">
-            <label for="titolo">Titolo</label>
-            <input type="Text" name="title" required>
+            <label for="recipe_name">Titolo</label>
+            <input type="Text" name="recipe_name" required>
             <br>
             <label for="photo">Foto</label>
             <input type="file" name="photo" accept="image/*" required></textarea>
-            <br>
-            <input type="submit" value="inserisci">
             <br>
             <label for="ingredients">Ingredienti</label>
             <textarea name="ingredients" required></textarea>
@@ -18,8 +16,8 @@
             <label for="method">Preparazione</label>
             <textarea name="method" required></textarea>
             <br>
-            
-            
+            <br>
+            <input type="submit" value="Inserisci ricetta">            
         </form>
     </body>
 

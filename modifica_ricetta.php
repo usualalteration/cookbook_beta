@@ -30,7 +30,7 @@
                 }
 
                 if(!empty($recipe_name) && !empty($ingredients) && !empty($method)) {
-                    $sql = "UPDATE recipes SET title='$recipe_name', ingredients='$ingredients', method='$method'";
+                    $sql = "UPDATE recipes SET recipe_name='$recipe_name', ingredients='$ingredients', method='$method'";
                     if(!empty($photo)) {
                         $sql .= ", photo='$photo'";
                     }

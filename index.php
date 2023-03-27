@@ -12,6 +12,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="ricette.php">Ricette</a></li>
                     <li><a href="inserisci.html">Aggiungi</a></li>
+                    <li><a href="cerca.php">Cerca</a></li>
                     <li><a href="https://usualalteration.github.io/">Chi sono</a></li>
                 </ul>
             </nav>
